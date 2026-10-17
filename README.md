@@ -66,7 +66,7 @@ documented with before/after log evidence in [FINDINGS.md](FINDINGS.md).
 3. Copy `sl_bridge.ini` next to it.
 4. Create a sub-folder `sl2\` and place a genuine Streamline 2.x payload inside
    (`sl.interposer.dll`, `sl.common.dll`, `sl.dlss_g.dll`, `sl.reflex.dll`,
-   `sl.pcl.dll`, `sl.dlss*.dll`, `nvngx_*.dll` — taken from an installed SL2 title).
+   `sl.pcl.dll`, `sl.dlss*.dll`, `nvngx_*.dll` — taken from [official repo releases](https://github.com/NVIDIA-RTX/Streamline)).
 5. Patch the loader gate once (3 bytes, reversible):
    `python bridge/patch_gate.py "<game>\Returnal\Binaries\Win64\Returnal-StreamlineRHIPreInit-Win64-Shipping.dll"`
 6. Launch the game normally (Steam). Logs: `sl_bridge.log` and `sl2logs\<pid>\sl.log`
