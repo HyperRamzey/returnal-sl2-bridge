@@ -1,0 +1,9 @@
+PRE-FIX excerpts - preserved SL2 log from run 0038 (pid 16648):
+the state where the game ran, but NGX was disabled and frame generation never generated.
+
+(1) NGX disabled: production build rejects the application id the bridge used to pass (first 3 of many):
+[00-38-13][streamline][error][tid:31284][7s:241ms:984us]commonEntry.cpp:1658[slOnPluginStartup] Please provide correct application id when calling slInit - NGX based features will be disabled
+
+(2) slEvaluateFeature rejected: no ViewportHandle chained (first 2 of 384774 occurrences in this run):
+[00-38-26][streamline][error][tid:19580][19s:572ms:634us]commonEntry.cpp:704[slEvaluateFeature] Missing viewport handle, did you forget to chain it up in the slEvaluateFeature inputs?
+[00-38-26][streamline][error][tid:19580][19s:577ms:885us]commonEntry.cpp:704[slEvaluateFeature] Missing viewport handle, did you forget to chain it up in the slEvaluateFeature inputs?

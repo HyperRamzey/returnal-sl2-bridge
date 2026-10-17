@@ -1,0 +1,506 @@
+01:47:16.508 [info] ==== sl1_bridge start (SL1 1.3.3 -> SL2 2.14.16) ====
+01:47:16.508 [info] dir=D:\SteamLibrary\steamapps\common\Returnal\Engine\Plugins\Streamline\Binaries\ThirdParty\Win64 logLevel=2 pluginDir=sl2 forceMode=1 forceNumFrames=4 uir=1
+01:47:16.508 [info] loading SL2 interposer: D:\SteamLibrary\steamapps\common\Returnal\Engine\Plugins\Streamline\Binaries\ThirdParty\Win64\sl2\sl.interposer.dll
+01:47:16.510 [info] sl2 logs+data dir: D:\SteamLibrary\steamapps\common\Returnal\Engine\Plugins\Streamline\Binaries\ThirdParty\Win64\sl2logs\37564
+01:47:16.510 [info] flags: eUseDXGIFactoryProxy enabled (overlay-injection compatible mode)
+01:47:16.510 [info] app identity: game appId=195018064, ini AppId=-1 -> applicationId=195018064, projectId=(none) (applicationId path)
+01:47:17.370 [info] sl2 slInit(sdk=0x100050000FEDC -> host 1.5.0, ini '1.5.0') -> 0
+01:47:17.371 [dbg ] feature functions resolved: dlssgSet=1 dlssgGet=1 reflexSet=1 reflexGet=1 reflexSleep=1 reflexSetMarker=1
+01:47:17.371 [info] SL2 ready
+01:47:19.174 [dbg ] proxy CreateDXGIFactory -> 0x00000000
+01:47:20.240 [dbg ] proxy D3D12CreateDevice(adapter=000000001592D5B0 minLevel=45056) -> 0x00000000 device=000000006DE64920
+01:47:21.471 [dbg ] proxy D3D12CreateDevice(adapter=000000006E3B60E0 minLevel=45056) -> 0x00000000 device=00000000163CBDE0
+01:47:22.725 [dbg ] proxy D3D12CreateDevice(adapter=000000006E3B5B90 minLevel=45056) -> 0x00000000 device=000000006DE5F940
+01:47:22.952 [dbg ] proxy D3D12CreateDevice(adapter=000000006E3B5B90 minLevel=45056) -> 0x00000000 device=000000006DE64350
+01:47:22.980 [dbg ] proxy CreateDXGIFactory2(flags=0x0) -> 0x00000000
+01:47:24.031 [dbg ] proxy D3D12CreateDevice(adapter=000000006E3B4650 minLevel=49408) -> 0x00000000 device=000000002B3D93A0
+01:47:30.342 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:37.627 [info] sl2 slIsFeatureSupported(feature=3) -> 0 (reported to app as supported)
+01:47:37.627 [info] feature functions ready after 0 attempt(s)
+01:47:37.627 [dbg ] setFeatureConstants(Reflex) mode=0 limit=0 markers=0 vk=0x0
+01:47:37.627 [info] reflex options: mode=0 frameLimitUs=0 markers=0 vk=0x0 (app)
+01:47:37.627 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:37.634 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:37.634 [dbg ] evaluateFeature(feature=3 id=0x5 frame=0 cmd=0000000000000000)
+01:47:37.642 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:37.642 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=0
+01:47:37.642 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=0x0 color=0x0 (app)
+01:47:37.642 [info] reflex options: mode=1 frameLimitUs=0 markers=1 vk=0x0 (auto: DLSS-G requires Reflex)
+01:47:37.643 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:37.643 [dbg ] evaluateFeature(feature=3 id=0x4 frame=0 cmd=0000000000000000)
+01:47:37.653 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:37.653 [dbg ] evaluateFeature(feature=3 id=0x5 frame=0 cmd=0000000000000000)
+01:47:37.659 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:37.659 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:37.659 [dbg ] evaluateFeature(feature=3 id=0x4 frame=0 cmd=0000000000000000)
+01:47:37.680 [dbg ] evaluateFeature(feature=3 id=0x5 frame=0 cmd=0000000000000000)
+01:47:37.743 [dbg ] evaluateFeature(feature=3 id=0x4 frame=0 cmd=0000000000000000)
+01:47:37.745 [dbg ] evaluateFeature(feature=3 id=0x5 frame=0 cmd=0000000000000000)
+01:47:37.747 [dbg ] evaluateFeature(feature=3 id=0x4 frame=0 cmd=0000000000000000)
+01:47:38.246 [dbg ] evaluateFeature(feature=3 id=0x8 frame=0 cmd=0000000000000000)
+01:47:38.246 [dbg ] evaluateFeature(feature=3 id=0x8 frame=0 cmd=0000000000000000)
+01:47:38.246 [dbg ] evaluateFeature(feature=3 id=0x8 frame=0 cmd=0000000000000000)
+01:47:38.246 [dbg ] evaluateFeature(feature=3 id=0x8 frame=0 cmd=0000000000000000)
+01:47:39.338 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:40.607 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:41.703 [dbg ] setFeatureConstants(Reflex) mode=1 limit=0 markers=1 vk=0x0
+01:47:41.703 [info] reflex options: mode=1 frameLimitUs=0 markers=1 vk=0x0 (app)
+01:47:41.703 [dbg ] evaluateFeature(feature=3 id=0x1000 frame=0 cmd=0000000000000000)
+01:47:41.703 [dbg ] evaluateFeature(feature=3 id=0x0 frame=0 cmd=0000000000000000)
+01:47:41.703 [dbg ] evaluateFeature(feature=3 id=0x6 frame=0 cmd=0000000000000000)
+01:47:42.039 [dbg ] evaluateFeature(feature=3 id=0x1 frame=0 cmd=0000000000000000)
+01:47:42.040 [dbg ] setFeatureConstants(Reflex) mode=1 limit=0 markers=1 vk=0x0
+01:47:42.040 [info] reflex options: mode=1 frameLimitUs=0 markers=1 vk=0x0 (app)
+01:47:42.040 [dbg ] evaluateFeature(feature=3 id=0x1000 frame=1 cmd=0000000000000000)
+01:47:42.040 [dbg ] evaluateFeature(feature=3 id=0x0 frame=1 cmd=0000000000000000)
+01:47:42.042 [dbg ] evaluateFeature(feature=3 id=0x6 frame=1 cmd=0000000000000000)
+01:47:42.046 [dbg ] evaluateFeature(feature=3 id=0x3 frame=0 cmd=0000000000000000)
+01:47:42.097 [dbg ] evaluateFeature(feature=3 id=0x1 frame=1 cmd=0000000000000000)
+01:47:42.113 [dbg ] setFeatureConstants(Reflex) mode=1 limit=0 markers=1 vk=0x0
+01:47:42.113 [info] reflex options: mode=1 frameLimitUs=0 markers=1 vk=0x0 (app)
+01:47:42.113 [dbg ] evaluateFeature(feature=3 id=0x1000 frame=2 cmd=0000000000000000)
+01:47:42.113 [dbg ] evaluateFeature(feature=3 id=0x0 frame=2 cmd=0000000000000000)
+01:47:42.113 [dbg ] evaluateFeature(feature=3 id=0x6 frame=2 cmd=0000000000000000)
+01:47:42.337 [dbg ] evaluateFeature(feature=3 id=0x1 frame=2 cmd=0000000000000000)
+01:47:42.450 [dbg ] setFeatureConstants(Reflex) mode=1 limit=0 markers=1 vk=0x0
+01:47:42.450 [info] reflex options: mode=1 frameLimitUs=0 markers=1 vk=0x0 (app)
+01:47:42.450 [dbg ] evaluateFeature(feature=3 id=0x1000 frame=3 cmd=0000000000000000)
+01:47:42.450 [dbg ] evaluateFeature(feature=3 id=0x0 frame=3 cmd=0000000000000000)
+01:47:42.450 [dbg ] evaluateFeature(feature=3 id=0x6 frame=3 cmd=0000000000000000)
+01:47:42.456 [dbg ] evaluateFeature(feature=3 id=0x1 frame=3 cmd=0000000000000000)
+01:47:42.466 [info] frame 1 (idx=1): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.250,0.167) near=0.010 far=75000.0 fov=90.0000 ar=1.7778
+01:47:42.466 [dbg ] setTag(type=0 id=0 -> vp=0 res=00000003D47C2370 extent=yes)
+01:47:42.466 [dbg ] tag type=0 native=00000003D47C2370 1280x720 fmt=19
+01:47:42.466 [dbg ] setTag(type=1 id=0 -> vp=0 res=000000035535B140 extent=yes)
+01:47:42.466 [dbg ] tag type=1 native=000000035535B140 1280x720 fmt=34
+01:47:42.466 [dbg ] setTag(type=2 id=0 -> vp=0 res=000000035532F730 extent=yes)
+01:47:42.467 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1280x720 color=1920x1080 (app)
+01:47:42.608 [dbg ] evaluateFeature(feature=3 id=0x3 frame=1 cmd=0000000000000000)
+01:47:42.623 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1280x720 color=1920x1080 (app)
+01:47:42.623 [info] frame 2 (idx=2): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.250,-0.389) near=0.010 far=75000.0 fov=90.0000 ar=1.7778
+01:47:42.623 [dbg ] setTag(type=0 id=0 -> vp=0 res=000000035533F960 extent=yes)
+01:47:42.623 [dbg ] tag type=0 native=000000035533F960 1280x720 fmt=19
+01:47:42.623 [dbg ] setTag(type=1 id=0 -> vp=0 res=0000001775F52DE0 extent=yes)
+01:47:42.623 [dbg ] tag type=1 native=0000001775F52DE0 1280x720 fmt=34
+01:47:42.623 [dbg ] setTag(type=2 id=0 -> vp=0 res=0000001775F54100 extent=yes)
+01:47:42.625 [dbg ] setFeatureConstants(Reflex) mode=1 limit=0 markers=1 vk=0x0
+01:47:42.625 [info] reflex options: mode=1 frameLimitUs=0 markers=1 vk=0x0 (app)
+01:47:42.625 [dbg ] evaluateFeature(feature=3 id=0x3 frame=2 cmd=0000000000000000)
+01:47:42.634 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1280x720 color=1920x1080 (app)
+01:47:42.641 [info] frame 3 (idx=3): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.375,-0.056) near=0.010 far=75000.0 fov=90.0000 ar=1.7778
+01:47:42.641 [dbg ] setTag(type=0 id=0 -> vp=0 res=00000003D47C2370 extent=yes)
+01:47:42.641 [dbg ] tag type=0 native=00000003D47C2370 1280x720 fmt=19
+01:47:42.641 [dbg ] setTag(type=1 id=0 -> vp=0 res=0000001775F5B3C0 extent=yes)
+01:47:42.641 [dbg ] tag type=1 native=0000001775F5B3C0 1280x720 fmt=34
+01:47:42.641 [dbg ] setTag(type=2 id=0 -> vp=0 res=0000001775F583F0 extent=yes)
+01:47:42.643 [dbg ] evaluateFeature(feature=3 id=0x3 frame=3 cmd=0000000000000000)
+01:47:42.645 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1280x720 color=1920x1080 (app)
+01:47:42.647 [info] frame 4 (idx=4): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.125,0.278) near=0.010 far=75000.0 fov=90.0000 ar=1.7778
+01:47:42.647 [dbg ] setTag(type=0 id=0 -> vp=0 res=000000035533F960 extent=yes)
+01:47:42.647 [dbg ] tag type=0 native=000000035533F960 1280x720 fmt=19
+01:47:42.647 [dbg ] setTag(type=1 id=0 -> vp=0 res=000000035535B140 extent=yes)
+01:47:42.647 [dbg ] tag type=1 native=000000035535B140 1280x720 fmt=34
+01:47:42.647 [dbg ] setTag(type=2 id=0 -> vp=0 res=000000035532F730 extent=yes)
+01:47:42.735 [dbg ] setFeatureConstants(Reflex) mode=1 limit=0 markers=1 vk=0x0
+01:47:42.735 [info] reflex options: mode=1 frameLimitUs=0 markers=1 vk=0x0 (app)
+01:47:42.743 [dbg ] setFeatureConstants(Reflex) mode=1 limit=0 markers=1 vk=0x0
+01:47:42.743 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1280x720 color=1920x1080 (app)
+01:47:42.744 [info] frame 5 (idx=5): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.125,-0.278) near=0.010 far=75000.0 fov=90.0000 ar=1.7778
+01:47:42.744 [dbg ] setTag(type=0 id=0 -> vp=0 res=00000003D47C2370 extent=yes)
+01:47:42.744 [dbg ] tag type=0 native=00000003D47C2370 1280x720 fmt=19
+01:47:42.744 [dbg ] setTag(type=1 id=0 -> vp=0 res=0000001775F52DE0 extent=yes)
+01:47:42.744 [dbg ] tag type=1 native=0000001775F52DE0 1280x720 fmt=34
+01:47:42.746 [dbg ] setTag(type=2 id=0 -> vp=0 res=0000001775F54100 extent=yes)
+01:47:42.752 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1280x720 color=1920x1080 (app)
+01:47:42.754 [dbg ] setTag(type=0 id=0 -> vp=0 res=000000035533F960 extent=yes)
+01:47:42.754 [dbg ] tag type=0 native=000000035533F960 1280x720 fmt=19
+01:47:42.754 [dbg ] setTag(type=1 id=0 -> vp=0 res=0000001775F5B3C0 extent=yes)
+01:47:42.754 [dbg ] tag type=1 native=0000001775F5B3C0 1280x720 fmt=34
+01:47:42.754 [dbg ] setTag(type=2 id=0 -> vp=0 res=0000001775F583F0 extent=yes)
+01:47:42.759 [dbg ] setTag(type=0 id=0 -> vp=0 res=00000003D47C2370 extent=yes)
+01:47:42.759 [dbg ] tag type=0 native=00000003D47C2370 1280x720 fmt=19
+01:47:42.759 [dbg ] setTag(type=1 id=0 -> vp=0 res=000000035535B140 extent=yes)
+01:47:42.759 [dbg ] tag type=1 native=000000035535B140 1280x720 fmt=34
+01:47:42.759 [dbg ] setTag(type=2 id=0 -> vp=0 res=000000035532F730 extent=yes)
+01:47:42.771 [dbg ] setTag(type=0 id=0 -> vp=0 res=000000035533F960 extent=yes)
+01:47:42.771 [dbg ] tag type=0 native=000000035533F960 1280x720 fmt=19
+01:47:42.771 [dbg ] setTag(type=1 id=0 -> vp=0 res=0000001775F52DE0 extent=yes)
+01:47:42.771 [dbg ] tag type=1 native=0000001775F52DE0 1280x720 fmt=34
+01:47:42.771 [dbg ] setTag(type=2 id=0 -> vp=0 res=0000001775F54100 extent=yes)
+01:47:43.692 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:45.970 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:46.141 [dbg ] setFeatureConstants(DLSSG) mode=1 frames=1 id=0 frame=238
+01:47:49.370 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:50.973 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:52.038 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:53.544 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:54.357 [info] DLSS-G state: status=0x0 presented=5 max=5 dynamic=1 vram=0MB
+01:47:54.357 [info] frame 300 (idx=709): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.312,-0.352) near=0.010 far=75000.0 fov=90.0000 ar=1.7778
+01:47:54.720 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:55.756 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:56.708 [info] reflex options: mode=1 frameLimitUs=0 markers=1 vk=0x0 (app)
+01:47:56.718 [dbg ] setFeatureConstants(Reflex) mode=1 limit=0 markers=1 vk=0x0
+01:47:56.783 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:57.407 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=959
+01:47:57.408 [dbg ] setFeatureConstants(Reflex) mode=1 limit=16666 markers=1 vk=0x0
+01:47:57.408 [info] reflex options: mode=1 frameLimitUs=16666 markers=1 vk=0x0 (app)
+01:47:58.261 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:47:59.542 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:01.371 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:03.188 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:03.674 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1280x720 color=1920x1080 (app)
+01:48:05.005 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:06.827 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:08.644 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:10.261 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:11.481 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:11.867 [info] reflex options: mode=1 frameLimitUs=16666 markers=1 vk=0x0 (app)
+01:48:11.884 [dbg ] setFeatureConstants(Reflex) mode=1 limit=16666 markers=1 vk=0x0
+01:48:12.713 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:13.949 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:15.083 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:16.417 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:18.274 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:18.808 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1280x720 color=1920x1080 (app)
+01:48:19.706 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:20.241 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=2299
+01:48:20.831 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:21.795 [dbg ] setFeatureConstants(Reflex) mode=1 limit=0 markers=1 vk=0x0
+01:48:21.795 [info] reflex options: mode=1 frameLimitUs=0 markers=1 vk=0x0 (app)
+01:48:22.243 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:22.977 [info] DLSS-G state: status=0x0 presented=5 max=5 dynamic=1 vram=0MB
+01:48:22.977 [info] frame 600 (idx=2436): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.125,-0.278) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:48:23.045 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:24.086 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:25.156 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:26.098 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:27.026 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:27.153 [info] reflex options: mode=1 frameLimitUs=0 markers=1 vk=0x0 (app)
+01:48:27.169 [dbg ] setFeatureConstants(Reflex) mode=1 limit=0 markers=1 vk=0x0
+01:48:27.647 [info] DLSS-G state: status=0x0 presented=5 max=5 dynamic=1 vram=0MB
+01:48:27.647 [info] frame 900 (idx=2736): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.031,0.426) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:48:27.946 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:28.890 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:29.946 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:30.984 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:31.861 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:32.451 [info] DLSS-G state: status=0x0 presented=5 max=5 dynamic=1 vram=0MB
+01:48:32.451 [info] frame 1200 (idx=3036): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.312,0.204) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:48:32.577 [dbg ] setTag(type=0 id=0 -> vp=0 res=000000035532BDD0 extent=yes)
+01:48:32.577 [dbg ] tag type=0 native=000000035532BDD0 1708x964 fmt=19
+01:48:32.577 [dbg ] setTag(type=1 id=0 -> vp=0 res=000000004023EE90 extent=yes)
+01:48:32.577 [dbg ] tag type=1 native=000000004023EE90 1707x961 fmt=34
+01:48:32.577 [dbg ] setTag(type=2 id=0 -> vp=0 res=000000004023F820 extent=yes)
+01:48:33.656 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1708x964 color=2560x1440 (app)
+01:48:33.801 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=3122
+01:48:33.801 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:34.733 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:35.798 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:36.757 [dbg ] setFeatureConstants(Reflex) mode=1 limit=16666 markers=1 vk=0x0
+01:48:36.757 [info] reflex options: mode=1 frameLimitUs=16666 markers=1 vk=0x0 (app)
+01:48:36.977 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:37.331 [dbg ] setFeatureConstants(Reflex) mode=1 limit=0 markers=1 vk=0x0
+01:48:37.331 [info] reflex options: mode=1 frameLimitUs=0 markers=1 vk=0x0 (app)
+01:48:37.381 [dbg ] setFeatureConstants(DLSSG) mode=1 frames=1 id=0 frame=3341
+01:48:37.977 [info] DLSS-G state: status=0x0 presented=5 max=5 dynamic=1 vram=0MB
+01:48:37.977 [info] frame 1500 (idx=3371): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.125,0.278) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:48:38.321 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:39.603 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:40.721 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:42.024 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:42.033 [info] reflex options: mode=1 frameLimitUs=0 markers=1 vk=0x0 (app)
+01:48:42.049 [dbg ] setFeatureConstants(Reflex) mode=1 limit=0 markers=1 vk=0x0
+01:48:42.193 [dbg ] setFeatureConstants(Reflex) mode=1 limit=16666 markers=1 vk=0x0
+01:48:42.193 [info] reflex options: mode=1 frameLimitUs=16666 markers=1 vk=0x0 (app)
+01:48:42.196 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=3616
+01:48:42.546 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=3636
+01:48:43.063 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:43.125 [info] frame 1800 (idx=3671): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.469,0.093) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:48:44.396 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:45.457 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:47.863 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:48.125 [info] frame 2100 (idx=3971): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.188,-0.130) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:48:48.794 [dbg ] setFeatureConstants(Reflex) mode=1 limit=0 markers=1 vk=0x0
+01:48:48.794 [info] reflex options: mode=1 frameLimitUs=0 markers=1 vk=0x0 (app)
+01:48:48.800 [dbg ] setFeatureConstants(DLSSG) mode=1 frames=1 id=0 frame=4011
+01:48:48.834 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1708x964 color=2560x1440 (app)
+01:48:48.941 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:50.017 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:51.514 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:53.217 [info] frame 2400 (idx=4271): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.375,-0.056) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:48:53.349 [dbg ] setTag(type=0 id=0 -> vp=0 res=00000000402206E0 extent=yes)
+01:48:53.349 [dbg ] tag type=0 native=00000000402206E0 1708x964 fmt=19
+01:48:53.349 [dbg ] setTag(type=1 id=0 -> vp=0 res=0000001775F58D80 extent=yes)
+01:48:53.349 [dbg ] tag type=1 native=0000001775F58D80 1707x961 fmt=34
+01:48:53.349 [dbg ] setTag(type=2 id=0 -> vp=0 res=0000001775F5AA30 extent=yes)
+01:48:54.333 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:54.501 [dbg ] setFeatureConstants(Reflex) mode=1 limit=16666 markers=1 vk=0x0
+01:48:54.501 [info] reflex options: mode=1 frameLimitUs=16666 markers=1 vk=0x0 (app)
+01:48:54.503 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=4348
+01:48:55.337 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:56.663 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:57.209 [info] reflex options: mode=1 frameLimitUs=16666 markers=1 vk=0x0 (app)
+01:48:57.233 [dbg ] setFeatureConstants(Reflex) mode=1 limit=16666 markers=1 vk=0x0
+01:48:58.438 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:48:58.813 [info] frame 2700 (idx=4571): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.438,-0.241) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:48:59.560 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:00.503 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:01.437 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:02.720 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:03.811 [info] frame 3000 (idx=4871): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.062,-0.463) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:49:04.051 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:04.506 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1708x964 color=2560x1440 (app)
+01:49:05.385 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:06.712 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:08.040 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:08.811 [info] frame 3300 (idx=5171): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.250,-0.389) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:49:09.370 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:10.702 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:13.629 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:14.881 [info] reflex options: mode=1 frameLimitUs=16666 markers=1 vk=0x0 (app)
+01:49:14.898 [dbg ] setFeatureConstants(Reflex) mode=1 limit=16666 markers=1 vk=0x0
+01:49:15.137 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:15.919 [info] frame 3600 (idx=5471): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.062,0.315) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:49:16.063 [dbg ] setTag(type=0 id=0 -> vp=0 res=00000000402206E0 extent=yes)
+01:49:16.063 [dbg ] tag type=0 native=00000000402206E0 1708x964 fmt=19
+01:49:16.063 [dbg ] setTag(type=1 id=0 -> vp=0 res=0000001775F58D80 extent=yes)
+01:49:16.063 [dbg ] tag type=1 native=0000001775F58D80 1707x961 fmt=34
+01:49:16.063 [dbg ] setTag(type=2 id=0 -> vp=0 res=0000001775F5AA30 extent=yes)
+01:49:17.248 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:18.337 [dbg ] setFeatureConstants(Reflex) mode=1 limit=0 markers=1 vk=0x0
+01:49:18.337 [info] reflex options: mode=1 frameLimitUs=0 markers=1 vk=0x0 (app)
+01:49:18.341 [dbg ] setFeatureConstants(DLSSG) mode=1 frames=1 id=0 frame=5548
+01:49:19.243 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:20.564 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:21.960 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:22.108 [info] frame 3900 (idx=5771): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.438,0.389) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:49:22.878 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1708x964 color=2560x1440 (app)
+01:49:23.436 [dbg ] setFeatureConstants(Reflex) mode=1 limit=16666 markers=1 vk=0x0
+01:49:23.436 [info] reflex options: mode=1 frameLimitUs=16666 markers=1 vk=0x0 (app)
+01:49:23.439 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=5845
+01:49:23.441 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:24.773 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=5925
+01:49:24.775 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:25.766 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=5985
+01:49:27.881 [info] frame 4200 (idx=6071): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.250,0.167) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:49:27.988 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:29.100 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:30.438 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:31.069 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=6261
+01:49:31.933 [info] reflex options: mode=1 frameLimitUs=16666 markers=1 vk=0x0 (app)
+01:49:31.950 [dbg ] setFeatureConstants(Reflex) mode=1 limit=16666 markers=1 vk=0x0
+01:49:31.986 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=6316
+01:49:32.907 [info] frame 4500 (idx=6371): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.188,-0.019) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:49:34.331 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:35.651 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:36.984 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:37.911 [info] frame 4800 (idx=6671): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.375,0.056) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:49:38.043 [dbg ] setTag(type=0 id=0 -> vp=0 res=00000000402206E0 extent=yes)
+01:49:38.043 [dbg ] tag type=0 native=00000000402206E0 1708x964 fmt=19
+01:49:38.043 [dbg ] setTag(type=1 id=0 -> vp=0 res=0000001775F58D80 extent=yes)
+01:49:38.043 [dbg ] tag type=1 native=0000001775F58D80 1707x961 fmt=34
+01:49:38.043 [dbg ] setTag(type=2 id=0 -> vp=0 res=0000001775F5AA30 extent=yes)
+01:49:38.326 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:38.613 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1708x964 color=2560x1440 (app)
+01:49:39.650 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:40.977 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:42.309 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:42.915 [info] frame 5100 (idx=6971): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.000,-0.167) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:49:43.640 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:44.973 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:45.967 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=7154
+01:49:46.943 [info] reflex options: mode=1 frameLimitUs=16666 markers=1 vk=0x0 (app)
+01:49:46.958 [dbg ] setFeatureConstants(Reflex) mode=1 limit=16666 markers=1 vk=0x0
+01:49:46.961 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=7214
+01:49:47.915 [info] frame 5400 (idx=7271): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.312,-0.352) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:49:48.962 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:50.291 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:51.623 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:52.916 [info] frame 5700 (idx=7571): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.125,-0.278) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:49:52.950 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:53.611 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1708x964 color=2560x1440 (app)
+01:49:54.283 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:55.611 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:56.942 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:57.914 [info] frame 6000 (idx=7871): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.031,0.426) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:49:58.046 [dbg ] setTag(type=0 id=0 -> vp=0 res=00000000402206E0 extent=yes)
+01:49:58.046 [dbg ] tag type=0 native=00000000402206E0 1708x964 fmt=19
+01:49:58.046 [dbg ] setTag(type=1 id=0 -> vp=0 res=0000001775F58D80 extent=yes)
+01:49:58.046 [dbg ] tag type=1 native=0000001775F58D80 1707x961 fmt=34
+01:49:58.046 [dbg ] setTag(type=2 id=0 -> vp=0 res=0000001775F5AA30 extent=yes)
+01:49:58.274 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:49:59.606 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:00.931 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=8052
+01:50:00.932 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:01.927 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=8112
+01:50:01.941 [info] reflex options: mode=1 frameLimitUs=16666 markers=1 vk=0x0 (app)
+01:50:01.958 [dbg ] setFeatureConstants(Reflex) mode=1 limit=16666 markers=1 vk=0x0
+01:50:02.915 [info] frame 6300 (idx=8171): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.312,0.204) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:50:03.594 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:04.924 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:06.257 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:07.583 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:07.914 [info] frame 6600 (idx=8471): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.125,0.278) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:50:08.611 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1708x964 color=2560x1440 (app)
+01:50:08.914 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:10.250 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:11.574 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:12.907 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:12.913 [info] frame 6900 (idx=8771): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.469,0.093) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:50:14.239 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:15.566 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:15.900 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=8950
+01:50:16.894 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=9010
+01:50:16.942 [info] reflex options: mode=1 frameLimitUs=16666 markers=1 vk=0x0 (app)
+01:50:16.958 [dbg ] setFeatureConstants(Reflex) mode=1 limit=16666 markers=1 vk=0x0
+01:50:17.916 [info] frame 7200 (idx=9071): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.188,-0.130) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:50:18.047 [dbg ] setTag(type=0 id=0 -> vp=0 res=00000000402206E0 extent=yes)
+01:50:18.047 [dbg ] tag type=0 native=00000000402206E0 1708x964 fmt=19
+01:50:18.047 [dbg ] setTag(type=1 id=0 -> vp=0 res=0000001775F58D80 extent=yes)
+01:50:18.047 [dbg ] tag type=1 native=0000001775F58D80 1707x961 fmt=34
+01:50:18.047 [dbg ] setTag(type=2 id=0 -> vp=0 res=0000001775F5AA30 extent=yes)
+01:50:19.557 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:20.890 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:22.221 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:22.914 [info] DLSS-G state: status=0x0 presented=1 max=5 dynamic=1 vram=0MB
+01:50:22.914 [info] frame 7500 (idx=9371): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.375,-0.056) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:50:23.550 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:23.611 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1708x964 color=2560x1440 (app)
+01:50:24.883 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:26.211 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:27.549 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:27.924 [info] frame 7800 (idx=9671): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.438,-0.241) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:50:28.881 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:30.214 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:30.874 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=9848
+01:50:31.869 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=9908
+01:50:31.949 [info] reflex options: mode=1 frameLimitUs=16666 markers=1 vk=0x0 (app)
+01:50:31.966 [dbg ] setFeatureConstants(Reflex) mode=1 limit=16666 markers=1 vk=0x0
+01:50:32.924 [info] frame 8100 (idx=9971): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.062,-0.463) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:50:34.202 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:35.531 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:36.863 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:37.922 [info] frame 8400 (idx=10271): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.250,-0.389) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:50:38.056 [dbg ] setTag(type=0 id=0 -> vp=0 res=00000000402206E0 extent=yes)
+01:50:38.056 [dbg ] tag type=0 native=00000000402206E0 1708x964 fmt=19
+01:50:38.056 [dbg ] setTag(type=1 id=0 -> vp=0 res=0000001775F58D80 extent=yes)
+01:50:38.056 [dbg ] tag type=1 native=0000001775F58D80 1707x961 fmt=34
+01:50:38.056 [dbg ] setTag(type=2 id=0 -> vp=0 res=0000001775F5AA30 extent=yes)
+01:50:38.190 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:38.619 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1708x964 color=2560x1440 (app)
+01:50:39.523 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:40.852 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:42.181 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:42.924 [info] frame 8700 (idx=10571): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.062,0.315) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:50:43.513 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:44.846 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:45.840 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=10746
+01:50:46.175 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:46.835 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=10806
+01:50:46.950 [info] reflex options: mode=1 frameLimitUs=16666 markers=1 vk=0x0 (app)
+01:50:46.966 [dbg ] setFeatureConstants(Reflex) mode=1 limit=16666 markers=1 vk=0x0
+01:50:47.925 [info] frame 9000 (idx=10871): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.438,0.389) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:50:48.835 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:50.165 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:51.496 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:52.823 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:52.921 [info] frame 9300 (idx=11171): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.250,0.167) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:50:53.619 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1708x964 color=2560x1440 (app)
+01:50:54.157 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:55.485 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:56.814 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:57.921 [info] frame 9600 (idx=11471): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.188,-0.019) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:50:58.057 [dbg ] setTag(type=0 id=0 -> vp=0 res=00000000402206E0 extent=yes)
+01:50:58.057 [dbg ] tag type=0 native=00000000402206E0 1708x964 fmt=19
+01:50:58.057 [dbg ] setTag(type=1 id=0 -> vp=0 res=0000001775F58D80 extent=yes)
+01:50:58.057 [dbg ] tag type=1 native=0000001775F58D80 1707x961 fmt=34
+01:50:58.057 [dbg ] setTag(type=2 id=0 -> vp=0 res=0000001775F5AA30 extent=yes)
+01:50:58.148 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:50:59.479 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:00.804 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=11644
+01:51:00.804 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:01.802 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=11704
+01:51:01.949 [info] reflex options: mode=1 frameLimitUs=16666 markers=1 vk=0x0 (app)
+01:51:01.965 [dbg ] setFeatureConstants(Reflex) mode=1 limit=16666 markers=1 vk=0x0
+01:51:02.921 [info] frame 9900 (idx=11771): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.375,0.056) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:51:03.467 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:04.798 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:06.129 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:07.456 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:07.923 [info] frame 10200 (idx=12071): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.000,-0.167) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:51:08.617 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1708x964 color=2560x1440 (app)
+01:51:08.789 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:10.121 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:11.448 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:12.780 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:12.921 [info] frame 10500 (idx=12371): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.312,-0.352) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:51:14.113 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:15.441 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:15.771 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=12542
+01:51:16.767 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=12602
+01:51:16.947 [info] reflex options: mode=1 frameLimitUs=16666 markers=1 vk=0x0 (app)
+01:51:16.964 [dbg ] setFeatureConstants(Reflex) mode=1 limit=16666 markers=1 vk=0x0
+01:51:17.920 [info] frame 10800 (idx=12671): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.125,-0.278) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:51:18.053 [dbg ] setTag(type=0 id=0 -> vp=0 res=00000000402206E0 extent=yes)
+01:51:18.053 [dbg ] tag type=0 native=00000000402206E0 1708x964 fmt=19
+01:51:18.053 [dbg ] setTag(type=1 id=0 -> vp=0 res=0000001775F58D80 extent=yes)
+01:51:18.053 [dbg ] tag type=1 native=0000001775F58D80 1707x961 fmt=34
+01:51:18.053 [dbg ] setTag(type=2 id=0 -> vp=0 res=0000001775F5AA30 extent=yes)
+01:51:19.431 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:20.763 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:22.095 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:22.922 [info] frame 11100 (idx=12971): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.031,0.426) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:51:23.421 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:23.618 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1708x964 color=2560x1440 (app)
+01:51:24.756 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:26.085 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:27.413 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:27.920 [info] frame 11400 (idx=13271): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.312,0.204) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:51:28.744 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:30.078 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:30.736 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=13440
+01:51:31.733 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=13500
+01:51:31.947 [info] reflex options: mode=1 frameLimitUs=16666 markers=1 vk=0x0 (app)
+01:51:31.963 [dbg ] setFeatureConstants(Reflex) mode=1 limit=16666 markers=1 vk=0x0
+01:51:32.920 [info] frame 11700 (idx=13571): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.125,0.278) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:51:34.067 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:35.396 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:36.728 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:37.921 [info] frame 12000 (idx=13871): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.469,0.093) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:51:38.054 [dbg ] setTag(type=0 id=0 -> vp=0 res=00000000402206E0 extent=yes)
+01:51:38.054 [dbg ] tag type=0 native=00000000402206E0 1708x964 fmt=19
+01:51:38.054 [dbg ] setTag(type=1 id=0 -> vp=0 res=0000001775F58D80 extent=yes)
+01:51:38.054 [dbg ] tag type=1 native=0000001775F58D80 1707x961 fmt=34
+01:51:38.054 [dbg ] setTag(type=2 id=0 -> vp=0 res=0000001775F5AA30 extent=yes)
+01:51:38.056 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:38.618 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1708x964 color=2560x1440 (app)
+01:51:39.388 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:40.717 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:42.046 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:42.920 [info] frame 12300 (idx=14171): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.188,-0.130) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:51:43.378 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:44.711 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:45.705 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=14338
+01:51:46.036 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:46.699 [dbg ] setFeatureConstants(DLSSG) mode=0 frames=1 id=0 frame=14398
+01:51:46.947 [info] reflex options: mode=1 frameLimitUs=16666 markers=1 vk=0x0 (app)
+01:51:46.963 [dbg ] setFeatureConstants(Reflex) mode=1 limit=16666 markers=1 vk=0x0
+01:51:47.919 [info] frame 12600 (idx=14471): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(-0.375,-0.056) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:51:48.699 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:50.030 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:51.360 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:52.689 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:52.920 [info] frame 12900 (idx=14771): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.438,-0.241) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:51:53.615 [info] DLSS-G options: mode=1(app) frames=4 uir=0 flags=0x10 mvecDepth=1708x964 color=2560x1440 (app)
+01:51:54.020 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:55.350 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:56.681 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:57.919 [info] frame 13200 (idx=15071): depthInv=1 camMotion=1 reset=0 ortho=0 dilated=0 jittered=0 jitter=(0.062,-0.463) near=0.010 far=75000.0 fov=90.0000 ar=1.7763
+01:51:58.011 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:51:58.053 [dbg ] setTag(type=0 id=0 -> vp=0 res=00000000402206E0 extent=yes)
+01:51:58.053 [dbg ] tag type=0 native=00000000402206E0 1708x964 fmt=19
+01:51:58.053 [dbg ] setTag(type=1 id=0 -> vp=0 res=0000001775F58D80 extent=yes)
+01:51:58.053 [dbg ] tag type=1 native=0000001775F58D80 1707x961 fmt=34
+01:51:58.053 [dbg ] setTag(type=2 id=0 -> vp=0 res=0000001775F5AA30 extent=yes)
+01:51:59.344 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)
+01:52:00.583 [info] sl2 slIsFeatureSupported(feature=1000) -> 0 (reported to app as supported)

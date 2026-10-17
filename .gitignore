@@ -1,0 +1,24 @@
+# build outputs
+bridge/*.obj
+bridge/*.exp
+bridge/*.lib
+bridge/*.def
+bridge/sl1_bridge.dll
+bridge/*.id0
+bridge/*.id1
+bridge/*.id2
+bridge/*.nam
+bridge/*.til
+
+# runtime / local state (contains game files and NVIDIA binaries - never commit)
+bridge/backup/
+bridge/sl2/
+bridge/sl2logs/
+bridge/*.log
+bridge/sl2log_run_*.log
+bridge/windows*.log
+bridge/ida_dump_*.txt
+
+# misc
+*.zip
+*.tmp
