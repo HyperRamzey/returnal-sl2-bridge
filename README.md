@@ -132,6 +132,22 @@ Requirements: Visual Studio 2022 (x64), Python 3, Streamline 2.x SDK headers.
    `bridge/interposer133_exports.txt` (the stock SL 1.3.3 interposer's export list),
    then `cl` produces `sl1_bridge.dll` (195 exports, 39 mapped).
 
+### Source ↔ binary correspondence (verified)
+
+The released `sl1_bridge.dll` is built from exactly the source in this repository:
+
+| | sha256 |
+| --- | --- |
+| `bridge/sl1_bridge.cpp` (as committed) | `EBF17B5A0D365E3F84AFB42480F40D980BC2A04D547B04166F6A5DCD7E6B84DC` |
+| `sl1_bridge.dll` (release asset, as deployed) | `423B08934278C5A3A27BB588747BD130F59962B065D9A095C9102CABF423E737` |
+
+A clean rebuild performed from a copy of this repository's sources produced a DLL with
+the same size (264,192 bytes) and **only 6 differing bytes** — the two standard MSVC
+link-time fields: the COFF header `TimeDateStamp` (file offset `0x108`) and the
+`.rdata` debug-directory entry `TimeDateStamp` (offset `0x375B4`). All code, data and
+the full export table are byte-identical; there is no source difference between the
+released binary and this repository.
+
 ## Caveats
 
 * Verified on a single machine/config (RTX 50-series, DLSS-override-capable driver,

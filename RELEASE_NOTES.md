@@ -35,6 +35,15 @@ Full instructions, configuration reference and the complete engineering log
 (seven root causes with before/after log evidence) are in the repository:
 `README.md` and `FINDINGS.md`.
 
+## Provenance
+
+The released DLL is compiled from `bridge/sl1_bridge.cpp` in this repository
+(source sha256 `EBF17B5A0D365E3F84AFB42480F40D980BC2A04D547B04166F6A5DCD7E6B84DC`).
+A clean rebuild from the repository sources reproduces the release binary byte-for-byte
+except the two standard MSVC link-timestamp fields (6 bytes total);
+all code, data and export tables are identical. Method in `README.md` →
+"Source ↔ binary correspondence".
+
 ## What was verified
 
 * NGX initialises with the game's real application id; `sl.dlss_g` stays loaded;
