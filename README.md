@@ -153,6 +153,7 @@ released binary and this repository.
 * Verified on a single machine/config (RTX 50-series, DLSS-override-capable driver,
   2560×1440). Other systems/driver versions may need ini adjustments.
 * No game files and no NVIDIA binaries are redistributed here. You supply your own
-  copies (the game, and a legitimate Streamline 2.x payload from another title).
+  copies (the game, and a genuine Streamline 2.x payload from the
+  [official Streamline releases](https://github.com/NVIDIA-RTX/Streamline)).
 * `patch_gate.py` flips one 3-byte function inside one game DLL — the installer backs
   the file up first and `install.ps1 -Remove` restores everything.

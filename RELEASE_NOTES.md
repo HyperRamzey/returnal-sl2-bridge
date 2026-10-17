@@ -17,8 +17,9 @@ renders ~56 fps at 2560×1440 (screenshot and raw logs in the repository's `evid
 
 * Returnal (Steam) with its Streamline plugin folder.
 * A genuine **Streamline 2.x payload** (`sl.interposer.dll`, `sl.common.dll`,
-  `sl.dlss_g.dll`, `sl.reflex.dll`, `sl.pcl.dll`, …) placed in an `sl2\` folder next to
-  the bridge.
+  `sl.dlss_g.dll`, `sl.reflex.dll`, `sl.pcl.dll`, …) — from NVIDIA's
+  [official Streamline releases](https://github.com/NVIDIA-RTX/Streamline) — placed in
+  an `sl2\` folder next to the bridge.
 * The one-time loader-gate patch for
   `Returnal-StreamlineRHIPreInit-Win64-Shipping.dll` — `bridge/patch_gate.py`
   flips 3 bytes and is fully reversible.
